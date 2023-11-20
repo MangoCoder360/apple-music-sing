@@ -1,0 +1,16 @@
+{
+    "lyrics": [
+        {
+            "lyric": "Okay, number seven",
+            "startTime": 0,
+            "endTime": 1.5
+        },
+        {
+            "lyric": "Shame on me for loving you",
+            "startTime": 10,
+            "endTime": 12
+        }
+    ],
+    "endTime": 250,
+    "credits": "Written By: Tim Bergling"
+}

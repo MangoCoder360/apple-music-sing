@@ -1,0 +1,11 @@
+{
+    "songs": [
+        {
+            "title": "Shame On Me",
+            "artist": "Avicii",
+            "lyricTimingsURL": "/templates/lyric-timings.template.json",
+            "coverArtURL": "https://cdn.reuben.zip/music-cover-art/avicii-true.jpg",
+            "id": 1
+        }
+    ]
+}

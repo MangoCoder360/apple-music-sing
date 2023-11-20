@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Lyrics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="song-select.js"></script>
+    <script src="playback-controller.js"></script>
+</head>
+<body>
+    <div id="initialLoading">
+        <h1>Loading...</h1>
+    </div>
+    <div style="display:none;" id="songSelect">
+        <h1>Select a song:</h1><br><br>
+        <table id="songsTable"></table>
+    </div>
+    <div style="display:none;" id="playbackUI">
+        <audio id="instrumentalAudio" autoplay="false"></audio>
+        <audio id="vocalAudio" autoplay="false"></audio>
+        <div id="lyricsText"></div>
+    </div>
+</body>
+</html>
+<script>
+    setTimeout(activateSongSelect, 1000);
+</script>
